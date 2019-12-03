@@ -44,18 +44,28 @@
                             <ColumnDefinition Width="2*"/>
                             <ColumnDefinition Width="2*"/>
                         </Grid.ColumnDefinitions>
-                        <StackLayout Grid.Column="0" Orientation="Horizontal">
+                        <Grid Grid.Column="0" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="5*"/>
+                                <ColumnDefinition Width="2*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
                             <Label Text="{Binding Name}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black" />
-                            <Label Text="{Binding NumersOfDaysToSellInput}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black" />
-                            <Label Text="{Binding QualityInput}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black" />
+                            <Label Text="{Binding NumersOfDaysToSellInput}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black" Grid.Column="1" />
+                            <Label Text="{Binding QualityInput}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black" Grid.Column="2" />
                             
-                        </StackLayout>
-                        <StackLayout Grid.Column="1" Orientation="Horizontal">
+                        </Grid>
+                        <Grid Grid.Column="1" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="5*"/>
+                                <ColumnDefinition Width="2*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
                             <Label Text="{Binding Name}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black" />
-                            <Label Text="{Binding NumersOfDaysToSellOutPut}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black" />
-                            <Label Text="{Binding QualityOutPut}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black" />
+                            <Label Text="{Binding NumersOfDaysToSellOutPut}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black" Grid.Column="1" />
+                            <Label Text="{Binding QualityOutPut}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black"  Grid.Column="2"/>
                             
-                        </StackLayout>
+                        </Grid>
                     </Grid>
                 </ViewCell>
             </DataTemplate>
