@@ -1,3 +1,7 @@
+Solution:Iceland_shopkeeper/Iceland_shopkeeper/Iceland_shopkeeper/
+views : Iceland_shopkeeper/Iceland_shopkeeper/Iceland_shopkeeper/Views/
+Model:Iceland_shopkeeper/Iceland_shopkeeper/Iceland_shopkeeper/Model
+
 
 
 To debug the solution you need to install visual studio with xamarin .
