@@ -1,0 +1,15 @@
+C:\Users\Isam\Documents\Iceland_shopkeeper\Iceland_shopkeeper\Iceland_shopkeeper\bin\Debug\netstandard2.0\Iceland_shopkeeper.deps.json
+C:\Users\Isam\Documents\Iceland_shopkeeper\Iceland_shopkeeper\Iceland_shopkeeper\bin\Debug\netstandard2.0\Iceland_shopkeeper.dll
+C:\Users\Isam\Documents\Iceland_shopkeeper\Iceland_shopkeeper\Iceland_shopkeeper\obj\Debug\netstandard2.0\Iceland_shopkeeper.csprojAssemblyReference.cache
+C:\Users\Isam\Documents\Iceland_shopkeeper\Iceland_shopkeeper\Iceland_shopkeeper\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Isam\Documents\Iceland_shopkeeper\Iceland_shopkeeper\Iceland_shopkeeper\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Isam\Documents\Iceland_shopkeeper\Iceland_shopkeeper\Iceland_shopkeeper\obj\Debug\netstandard2.0\Iceland_shopkeeper.AssemblyInfoInputs.cache
+C:\Users\Isam\Documents\Iceland_shopkeeper\Iceland_shopkeeper\Iceland_shopkeeper\obj\Debug\netstandard2.0\Iceland_shopkeeper.AssemblyInfo.cs
+C:\Users\Isam\Documents\Iceland_shopkeeper\Iceland_shopkeeper\Iceland_shopkeeper\bin\Debug\netstandard2.0\ref\Iceland_shopkeeper.dll
+C:\Users\Isam\Documents\Iceland_shopkeeper\Iceland_shopkeeper\Iceland_shopkeeper\bin\Debug\netstandard2.0\Iceland_shopkeeper.pdb
+C:\Users\Isam\Documents\Iceland_shopkeeper\Iceland_shopkeeper\Iceland_shopkeeper\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Isam\Documents\Iceland_shopkeeper\Iceland_shopkeeper\Iceland_shopkeeper\obj\Debug\netstandard2.0\Iceland_shopkeeper.dll
+C:\Users\Isam\Documents\Iceland_shopkeeper\Iceland_shopkeeper\Iceland_shopkeeper\obj\Debug\netstandard2.0\ref\Iceland_shopkeeper.dll
+C:\Users\Isam\Documents\Iceland_shopkeeper\Iceland_shopkeeper\Iceland_shopkeeper\obj\Debug\netstandard2.0\Iceland_shopkeeper.pdb
+C:\Users\Isam\Documents\Iceland_shopkeeper\Iceland_shopkeeper\Iceland_shopkeeper\obj\Debug\netstandard2.0\Views\ItemPage.xaml.g.cs
+C:\Users\Isam\Documents\Iceland_shopkeeper\Iceland_shopkeeper\Iceland_shopkeeper\obj\Debug\netstandard2.0\Views\ItemsListPage.xaml.g.cs

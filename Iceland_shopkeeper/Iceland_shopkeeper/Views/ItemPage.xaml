@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             x:Class="Iceland_shopkeeper.Views.ItemPage">
+    <StackLayout Margin="20" VerticalOptions="StartAndExpand">
+        <Label Text="Item Name" />
+        <Entry x:Name="NameI"  Text="{Binding Name}" />
+        <Label  Text="Quality" />
+        <Entry  x:Name="quality" Text="{Binding QualityInput}" Keyboard="Numeric" />
+        <Label  Text="Numbers Of Days To Sell" />
+        <Entry  x:Name="DaysToSell" Text="{Binding NumersOfDaysToSellInput}" Keyboard="Numeric" />
+        <Label Text="Date" />
+        <Label Text="{Binding Source={x:Static sys:DateTime.Now}, StringFormat='{0:MMMM dd, yyyy}'}"  TextColor="Black" />
+        <Button Text="Save" Clicked="OnSaveClicked" />
+        <Button Text="Delete" Clicked="OnDeleteClicked" />
+        <Button Text="Cancel" Clicked="OnCancelClicked" />
+    </StackLayout>
+</ContentPage>

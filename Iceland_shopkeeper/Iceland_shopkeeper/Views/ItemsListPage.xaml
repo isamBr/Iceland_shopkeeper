@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             Title="Inventory Management Items List"
+             x:Class="Iceland_shopkeeper.Views.ItemsListPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="+" Clicked="OnItemAdded">
+            <ToolbarItem.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="Android" Value="plus.png" />
+                </OnPlatform>
+            </ToolbarItem.Icon>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <ListView x:Name="listView" Margin="20" >
+        <ListView.Header>
+            <Grid Padding="10,5,0,5" BackgroundColor="#cccccc">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <StackLayout Grid.Column="0" Orientation="Horizontal">
+                    <Label Text="Input" FontSize="Small"/>
+                </StackLayout>
+                <StackLayout Grid.Column="1" Orientation="Horizontal">
+                    <Label Text="Output" FontSize="Small"/>
+
+                </StackLayout>
+            </Grid>
+
+        </ListView.Header>
+        <ListView.Footer>
+            <Label Text="Coded by Isam brahim " />
+        </ListView.Footer>
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Grid  Margin="20,0,0,0" HorizontalOptions="FillAndExpand">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="2*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackLayout Grid.Column="0" Orientation="Horizontal">
+                            <Label Text="{Binding Name}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black" />
+                            <Label Text="{Binding NumersOfDaysToSellInput}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black" />
+                            <Label Text="{Binding QualityInput}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black" />
+                            
+                        </StackLayout>
+                        <StackLayout Grid.Column="1" Orientation="Horizontal">
+                            <Label Text="{Binding Name}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black" />
+                            <Label Text="{Binding NumersOfDaysToSellOutPut}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black" />
+                            <Label Text="{Binding QualityOutPut}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black" />
+                            
+                        </StackLayout>
+                    </Grid>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

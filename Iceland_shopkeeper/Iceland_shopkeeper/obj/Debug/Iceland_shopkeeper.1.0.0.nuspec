@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Iceland_shopkeeper</id>
+    <version>1.0.0</version>
+    <authors>Iceland_shopkeeper</authors>
+    <owners>Iceland_shopkeeper</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="SQLitePCLRaw.bundle_green" version="1.1.5" exclude="Build,Analyzers" />
+        <dependency id="SQLitePCLRaw.core" version="1.1.5" exclude="Build,Analyzers" />
+        <dependency id="Syncfusion.Xamarin.Core" version="16.3.0.21" exclude="Build,Analyzers" />
+        <dependency id="Syncfusion.Xamarin.DataSource" version="16.3.0.21" exclude="Build,Analyzers" />
+        <dependency id="Syncfusion.Xamarin.GridCommon" version="16.3.0.21" exclude="Build,Analyzers" />
+        <dependency id="Syncfusion.Xamarin.SfListView" version="16.3.0.21" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.Essentials" version="1.2.0" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.Forms" version="4.2.0.709249" exclude="Build,Analyzers" />
+        <dependency id="sqlite-net-pcl" version="1.4.118" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Isam\Documents\Iceland_shopkeeper\Iceland_shopkeeper\Iceland_shopkeeper\bin\Debug\netstandard2.0\Iceland_shopkeeper.dll" target="lib\netstandard2.0\Iceland_shopkeeper.dll" />
+  </files>
+</package>
